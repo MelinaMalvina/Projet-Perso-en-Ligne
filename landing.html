@@ -1,0 +1,178 @@
+<!DOCTYPE HTML>
+<!--
+	Forty by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Fonction tri</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="./css/imageOrder.css">
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper">
+
+				<!-- Header -->
+				<!-- Note: The "styleN" class below should match that of the banner element. -->
+					<header id="header" class="alt style2">
+							<nav>
+							<a href="#menu">Menu</a>
+						</nav>
+					</header>
+
+				<!-- Menu -->
+					<nav id="menu">
+						<ul class="links">
+							<li><a href="index.html">Acceuil</a></li>
+				
+						</ul>
+					</nav>
+
+				<!-- Banner -->
+				<!-- Note: The "styleN" class below should match that of the header element. -->
+					<section id="banner" class="style2">
+						<div class="inner">
+							<span class="image">
+								<img src="images/pic07.jpg" alt="" />
+							</span>
+							<header class="major">
+								<h1>Fonction de Tri </h1>
+							</header>
+							<div class="content">
+								<p>Dans se projet HTML5/CSS3 et JavaScript, j'ai effectuer une fonction de tri.</p>
+							</div>
+						</div>
+					</section>
+
+				<!-- Main -->
+					<div id="main">
+
+						<!-- Two -->
+							<section id="two" class="spotlights">
+								<section>
+								
+									<div class="content">
+										<div class="inner">
+											
+											<h1 id="titre">Paramoteur ? Multiaxe ? Faites votre choix ! </h1>
+											<div class="brief">
+											</div>
+											  <div id="imageBloc">
+												<button id="all"> All</button>
+												<button id="paramoteur">paramoteur</button>
+												<button id="multiaxe">multiaxe</button>
+												  <ul class="paramoteur">
+													<li><img src="./assets/images/paramoteur1.jpg" width="300px" height="200px" alt="" id="ma-super-image1"></li>
+													<li><img src="./assets/images/paramoteur2.jpg" width="300px" height="200px" alt="" id="ma-super-image2"></li>
+													<li><img src="./assets/images/paramoteur3.jpg" width="300px" height="200px" alt="" id="ma-super-image3"></li>
+												  </ul>
+												  <ul class="multiaxe">
+													<li><img src="./assets/images/multiaxe1.jpg" width="300px" height="200px" alt="" id="ma-super-image4"></li>
+													<li><img src="./assets/images/multiaxe2.jpg" width="300px" height="200px" alt="" id="ma-super-image5"></li>
+													<li><img src="./assets/images/multiaxe3.jpg" width="300px" height="200px" alt="" id="ma-super-image6"></li>
+												  </ul>
+											  </div>
+											  <script src ='./src/imageOrder.js'>
+												//TODO
+												//1 - Séléctionner l'éléments HTML 'bouton paramoteur' avec querySelector et le mettre dans une variable.
+												//2 - Séléctionner la liste ul 'multiaxe' avec querySelector et la mettre dans une variable.
+												//3 - Placer un 'micro' avec un addEventListener (click) sur l'élément HTML 'bouton paramoteur'
+												//4 - Dans le callback de l'addEventListener, faire disparaitre le liste 'multiaxe' à l'aide de ce code: multiaxe.style.display = 'none'; Tester cette instruction dans la console du navigateur.
+												//5 - Placer un 'debugger' dans le callback en cas de problème.
+											  </script>
+											<ul class="actions">
+											</ul>
+										</div>
+									</div>
+								</section>
+								
+					</div>
+
+				<!-- Contact -->
+					<section id="contact">
+						<div class="inner">
+							<section>
+								<form method="post" action="#">
+									<div class="fields">
+										<div class="field half">
+											<label for="name">Nom</label>
+											<input type="text" name="name" id="name" />
+										</div>
+										<div class="field half">
+											<label for="email">Email</label>
+											<input type="text" name="email" id="email" />
+										</div>
+										<div class="field">
+											<label for="message">Message</label>
+											<textarea name="message" id="message" rows="6"></textarea>
+										</div>
+									</div>
+									<ul class="actions">
+										<li><input type="submit" value="ENVOYER" class="primary" /></li>
+										<li><input type="reset" value="ANNULER" /></li>
+									</ul>
+								</form>
+							</section>
+							<section class="split">
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-envelope"></span>
+										<h3>Email</h3>
+										<a href="#">melinamalvina@gmail.com</a>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-phone"></span>
+										<h3>Téléphone</h3>
+										<span>06.58.92.73.44</span>
+									</div>
+								</section>
+								<section>
+									<div class="contact-method">
+										<span class="icon solid alt fa-home"></span>
+										<h3>Addresse</h3>
+										<span>13127<br />
+										Vitrolles<br />
+										</span>
+									</div>
+								</section>
+							</section>
+						</div>
+					</section>
+
+				<!-- Footer -->
+					<footer id="footer">
+						<div class="inner">
+							<ul class="icons">
+								<li><a href="#" class="icon brands alt fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="#" class="icon brands alt fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="#" class="icon brands alt fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="#" class="icon brands alt fa-github"><span class="label">GitHub</span></a></li>
+								<li><a href="#" class="icon brands alt fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+							</ul>
+							<ul class="copyright">
+								<li>&copy; Untitled</li><li>Design: <a href="https://html5up.net">HTML5 UP</a></li>
+							</ul>
+						</div>
+					</footer>
+
+			</div>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+	</body>
+</html>
